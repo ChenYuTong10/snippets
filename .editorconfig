@@ -1,0 +1,23 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# Top-most editorConfig file
+root = true
+
+[*]
+# Specifies the type of line-ending to use in text files.
+# lf: Use the Unix-style line ending, which is a single line feed character (\n)
+# cr: Use the classic Mac-style line ending, which is a single carriage return character (\r)
+# crlf: Use the Windows-style line ending, which is a combination of a carriage return and a line feed (\r\n)
+end_of_line = lf
+# Specifies whether or not to insert a newline character at the end of text files
+insert_final_newline = true
+
+# Specific default charset
+charset = utf-8
+
+# Space indentation
+indent_style = space
+indent_size = 4
+
+# Specific whether to remove any whitespace characters preceding newline characters
+trim_trailing_whitespace = true
