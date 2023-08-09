@@ -31,7 +31,7 @@ function IntroText() {
             </Typography>
             <Typography variant="subtitle1" textAlign={"center"} gutterBottom>
                 Link:{" "}
-                <Link href="https://bing.com" underline="none">
+                <Link href={process.env.REACT_APP_DIRECT_LINK} underline="none">
                     {process.env.REACT_APP_DIRECT_LINK}
                 </Link>
             </Typography>
