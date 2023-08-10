@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import Box from "@mui/material/Box";
 import Link from "@mui/material/Link";
 import Card from "@mui/material/Card";
@@ -70,7 +70,6 @@ function Searchbar() {
                 }}
             >
                 <Input
-                    disabled
                     fullWidth
                     placeholder="Search in repository"
                     startAdornment={
