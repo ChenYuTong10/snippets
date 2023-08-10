@@ -18,7 +18,7 @@ const snippets: Snippet[] = [
             alt: "Photo Of Stream During Daytime",
             src: "https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg"
         },
-        tags: ["Lib", "Microsoft", "Editor"]
+        tags: ["SQL", "JavaScript"]
     },
     {
         name: "aliqua nostrud excepteur",
@@ -27,7 +27,7 @@ const snippets: Snippet[] = [
             alt: "Person Walking Between Green Forest Trees",
             src: "https://images.pexels.com/photos/15286/pexels-photo.jpg"
         },
-        tags: ["Google", "Desktop", "Framework"]
+        tags: ["C++", "Google", "Desktop", "Framework"]
     },
     {
         name: "non aute ipsum",
