@@ -188,7 +188,7 @@ function GithubCorner() {
     );
 }
 
-function App() {
+function Home() {
     return (
         <Container sx={{ py: 3 }}>
             {IntroText()}
@@ -199,4 +199,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;
